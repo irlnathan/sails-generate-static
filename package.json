@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-static",
+  "version": "0.11.0",
+  "description": "sails generate static",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "static",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Irl Nathan",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "static",
+    "behavior": "overrides `sails generate static`",
+    "sailsVersion": "~0.10.0"
+  }
+}
