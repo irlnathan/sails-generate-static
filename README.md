@@ -1,6 +1,6 @@
 # sails-generate-static
 
-A `static` generator for use with the Sails command-line interface.
+A `static` generator for use with the Sails command-line interface. This generator will remove the default explicit route to the homepage and copy the contents of the homepage to the `/assets/` folder as `index.html`.
 
 Certain generators are installed by default in Sails, but they can be overridden.  Other generators create entirely new things.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators and information on building your own generators.
 
