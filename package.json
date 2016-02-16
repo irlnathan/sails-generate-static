@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-static",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "description": "sails generate static",
   "main": "Generator.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "author": "Irl Nathan",
   "license": "MIT",
   "dependencies": {
-  	"lodash": ">=2.4.x",
-  	"merge-defaults": ">=0.1.0"
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
   },
   "devDependencies": {
     "sails-generate": "*",
