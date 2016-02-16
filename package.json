@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-static",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "sails generate static",
   "main": "Generator.js",
   "scripts": {
